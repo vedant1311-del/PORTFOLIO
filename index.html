@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Pandit | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&family=Clash+Display:wght@400;500;600;700&family=Cabinet+Grotesk:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring"></div>
+
+    <!-- Noise Overlay -->
+    <div class="noise"></div>
+
+    <!-- ───────── NAV ───────── -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">VP<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about"><span class="nav-num">01</span>About</a></li>
+                <li><a href="#experience"><span class="nav-num">02</span>Experience</a></li>
+                <li><a href="#skills"><span class="nav-num">03</span>Skills</a></li>
+                <li><a href="#projects"><span class="nav-num">04</span>Projects</a></li>
+                <li><a href="#certifications"><span class="nav-num">05</span>Certs</a></li>
+                <li><a href="#contact"><span class="nav-num">06</span>Contact</a></li>
+            </ul>
+            <a href="https://drive.google.com/file/d/1OSLAJNijsEQkomllpHUM2JmPzSpUY-Po/view" target="_blank" class="nav-resume">
+                <i class="fas fa-file-download"></i> Resume
+            </a>
+            <button class="hamburger" aria-label="Menu">
+                <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ───────── HERO ───────── -->
+    <section id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+
+        <div class="hero-inner">
+            <div class="hero-top fade-up" style="--d:0s">
+                <span class="hero-tag"><span class="tag-dot"></span> Available for Internships & Collabs</span>
+            </div>
+
+            <h1 class="hero-name fade-up" style="--d:0.15s">
+                <span class="line-1">Hi, I'm</span>
+                <span class="line-2">VEDANT<br><em>PANDIT</em></span>
+            </h1>
+
+            <div class="hero-typing fade-up" style="--d:0.3s">
+                <span class="type-prefix">~/</span>
+                <span id="typewriter"></span><span class="cursor">_</span>
+            </div>
+
+            <p class="hero-desc fade-up" style="--d:0.45s">
+                Passionate about exploring the latest advancements in AI<br>
+                and using data to drive smarter, more impactful decisions.
+            </p>
+
+            <div class="hero-cta fade-up" style="--d:0.6s">
+                <a href="#contact" class="btn-primary">Let's Connect <i class="fas fa-arrow-right"></i></a>
+                <a href="https://www.linkedin.com/in/vedant-pandit-9a5306372" target="_blank" class="btn-ghost">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+            <div class="hero-stats fade-up" style="--d:0.75s">
+                <div class="hstat"><span class="hstat-n">7+</span><span class="hstat-l">Core Skills</span></div>
+                <div class="hstat-div"></div>
+                <div class="hstat"><span class="hstat-n">5+</span><span class="hstat-l">Certifications</span></div>
+                <div class="hstat-div"></div>
+                <div class="hstat"><span class="hstat-n">3+</span><span class="hstat-l">Projects</span></div>
+            </div>
+        </div>
+
+        <div class="scroll-hint">
+            <span></span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ───────── ABOUT ───────── -->
+    <section id="about" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">01</span>
+            <h2 class="sec-title">About Me</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="about-grid">
+            <div class="about-text">
+                <h3 class="about-headline">Passion for <em>Intelligent Systems.</em></h3>
+                <p>I'm a dedicated BTech student at <strong>Noida International University (2025–2029)</strong>, specializing in Computer Science with a focus on AI, Machine Learning, and Data Science.</p>
+                <p>With a deep curiosity for how intelligent systems can solve real-world problems, I'm currently building strong foundations in data analysis, algorithms, and model development.</p>
+                <p>As I continue my journey, I'm eager to work on impactful projects, internships, and collaborations that enhance my practical understanding of the industry.</p>
+                <a href="https://drive.google.com/file/d/1OSLAJNijsEQkomllpHUM2JmPzSpUY-Po/view" target="_blank" class="btn-primary" style="margin-top:2rem;display:inline-flex">
+                    <i class="fas fa-file-download"></i> Download Resume
+                </a>
+            </div>
+            <div class="about-right">
+                <div class="about-card-wrap">
+                    <div class="about-terminal">
+                        <div class="terminal-bar">
+                            <span class="tb-dot red"></span>
+                            <span class="tb-dot yellow"></span>
+                            <span class="tb-dot green"></span>
+                            <span class="tb-title">vedant@portfolio ~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="t-cmd">$ whoami</span></p>
+                            <p class="t-out">vedant_pandit</p>
+                            <p><span class="t-cmd">$ cat info.json</span></p>
+                            <div class="t-json">
+                                <p><span class="t-key">"university"</span>: <span class="t-val">"NIU, Greater Noida"</span>,</p>
+                                <p><span class="t-key">"degree"</span>: <span class="t-val">"BTech CS"</span>,</p>
+                                <p><span class="t-key">"focus"</span>: <span class="t-val">"AI / ML / Data Science"</span>,</p>
+                                <p><span class="t-key">"location"</span>: <span class="t-val">"Noida, UP, India"</span>,</p>
+                                <p><span class="t-key">"status"</span>: <span class="t-green">"open_to_opportunities"</span></p>
+                            </div>
+                            <p class="t-prompt"><span class="t-cmd">$</span> <span class="cursor-sm">_</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="astat"><span class="astat-n">7+</span><span class="astat-l">Core Tech Skills</span></div>
+                    <div class="astat"><span class="astat-n">5+</span><span class="astat-l">Certifications</span></div>
+                    <div class="astat"><span class="astat-n">3+</span><span class="astat-l">Projects Built</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───────── EXPERIENCE ───────── -->
+    <section id="experience" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">02</span>
+            <h2 class="sec-title">Experience & Education</h2>
+            <div class="sec-line"></div>
+        </div>
+        <div class="timeline">
+
+            <div class="tl-item">
+                <div class="tl-marker">
+                    <div class="tl-dot"></div>
+                    <div class="tl-line"></div>
+                </div>
+                <div class="tl-content glass-card">
+                    <div class="tl-meta">
+                        <span class="tl-date"><i class="fas fa-calendar-alt"></i> 2025 – 2029</span>
+                        <span class="tl-badge edu">Education</span>
+                    </div>
+                    <h3>BTech — Computer Science</h3>
+                    <h4>Noida International University</h4>
+                    <p>Specialization in Artificial Intelligence and Machine Learning. Actively building projects in AI, data analysis, and web development.</p>
+                </div>
+            </div>
+
+            <div class="tl-item">
+                <div class="tl-marker">
+                    <div class="tl-dot"></div>
+                    <div class="tl-line"></div>
+                </div>
+                <div class="tl-content glass-card">
+                    <div class="tl-meta">
+                        <span class="tl-date"><i class="fas fa-users"></i> Club Role</span>
+                        <span class="tl-badge role">Leadership</span>
+                    </div>
+                    <h3>Outreach Head</h3>
+                    <h4>Student General Council — NxtWave of Innovation in Advanced Technologies</h4>
+                    <p>Led strategic communication and partnership initiatives to expand the club's presence. Strengthened leadership, negotiation, and strategic planning skills while managing real-world coordination challenges.</p>
+                </div>
+            </div>
+
+            <div class="tl-item">
+                <div class="tl-marker">
+                    <div class="tl-dot"></div>
+                </div>
+                <div class="tl-content glass-card">
+                    <div class="tl-meta">
+                        <span class="tl-date"><i class="fas fa-rocket"></i> Startup Role</span>
+                        <span class="tl-badge startup">Operations</span>
+                    </div>
+                    <h3>Operations Head</h3>
+                    <h4>TechVerse — Student-Driven Tech Startup</h4>
+                    <p>Oversaw planning, execution, and optimization of internal processes. Responsibilities include team coordination, workflow management, task allocation, and performance tracking. Enhanced problem-solving abilities and capacity to lead teams in a fast-paced startup environment.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ───────── SKILLS ───────── -->
+    <section id="skills" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">03</span>
+            <h2 class="sec-title">Tech Arsenal</h2>
+            <div class="sec-line"></div>
+        </div>
+
+        <div class="skills-wrap">
+            <div class="skills-left">
+                <h3 class="skills-sub">Core Competencies</h3>
+                <div class="skill-grid">
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fab fa-python"></i></div>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fas fa-database"></i></div>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fas fa-robot"></i></div>
+                        <span>Generative AI</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fab fa-html5"></i></div>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fab fa-css3-alt"></i></div>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fas fa-cloud"></i></div>
+                        <span>Cloud Computing</span>
+                    </div>
+                    <div class="skill-pill">
+                        <div class="sp-icon"><i class="fas fa-project-diagram"></i></div>
+                        <span>n8n</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-right">
+                <h3 class="skills-sub">Soft Skills</h3>
+                <div class="soft-grid">
+                    <div class="soft-card">
+                        <i class="fas fa-users"></i>
+                        <h4>Teamwork</h4>
+                        <p>Collaborative approach in student councils and startup environments</p>
+                    </div>
+                    <div class="soft-card">
+                        <i class="fas fa-comments"></i>
+                        <h4>Communication</h4>
+                        <p>Clear articulation of complex ideas across diverse audiences</p>
+                    </div>
+                    <div class="soft-card">
+                        <i class="fas fa-crown"></i>
+                        <h4>Leadership</h4>
+                        <p>Proven through Outreach Head and Operations Head roles</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───────── PROJECTS ───────── -->
+    <section id="projects" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">04</span>
+            <h2 class="sec-title">Featured Projects</h2>
+            <div class="sec-line"></div>
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card glass-card featured">
+                <div class="pc-top">
+                    <div class="pc-icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="pc-links">
+                        <a href="https://github.com/vedant1311-del/ai-research-assistant" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://ai-research-assistant-appefdi92hmbxrhbplrqee.streamlit.app/" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <span class="pc-tag">RAG · LLM · Streamlit</span>
+                <h3>AI Research Paper Chatbot</h3>
+                <p>Designed and developed an AI-powered Research Paper Chatbot leveraging RAG architecture. Processes PDF documents through text extraction, semantic chunking, vector embedding via Google Gemini Embedding API, and FAISS-based similarity search.</p>
+                <div class="pc-achievements">
+                    <span><i class="fas fa-check-circle"></i> Production-level RAG pipeline from scratch</span>
+                    <span><i class="fas fa-check-circle"></i> Debugged 10+ real API & dependency errors</span>
+                    <span><i class="fas fa-check-circle"></i> Secure env-variable practices + GitHub deploy</span>
+                </div>
+                <div class="pc-tech">
+                    <span>Streamlit</span><span>Python</span><span>LangChain</span><span>FAISS</span><span>Gemini AI</span><span>pypdf</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card">
+                <div class="pc-top">
+                    <div class="pc-icon"><i class="fas fa-user-secret"></i></div>
+                    <div class="pc-links">
+                        <a href='https://github.com/vedant1311-del/realivision-guard' title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <span class="pc-tag">ML · Vision · Security</span>
+                <h3>Deepfake Detection System</h3>
+                <p>Machine learning system to detect manipulated or AI-generated facial content. Involves dataset preprocessing, feature extraction, and training a classification model to distinguish authentic from deepfake media.</p>
+                <div class="pc-tech">
+                    <span>Python</span><span>TensorFlow</span><span>Image Processing</span><span>ML</span>
+                </div>
+            </div>
+
+            <div class="project-card glass-card">
+                <div class="pc-top">
+                    <div class="pc-icon"><i class="fas fa-gem"></i></div>
+                    <div class="pc-links">
+
+                    </div>
+                </div>
+                <span class="pc-tag">Frontend · UI/UX · Responsive</span>
+                <h3>Jewellery Shop Website</h3>
+                <p>Fully responsive e-commerce website for a jewellery brand. Showcases premium collections with an elegant UI, smooth navigation, product filtering, and luxury branding aesthetics. Demonstrates modern UI/UX principles.</p>
+                <div class="pc-tech">
+                    <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Bootstrap</span><span>Tailwind</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ───────── CERTIFICATIONS ───────── -->
+    <section id="certifications" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">05</span>
+            <h2 class="sec-title">Credentials & Certifications</h2>
+            <div class="sec-line"></div>
+        </div>
+
+        <div class="cert-grid">
+            <div class="cert-card glass-card">
+                <div class="cert-logo" style="background:rgba(248,0,0,0.08);border-color:rgba(248,0,0,0.15)">
+                    <i class="fab fa-java" style="color:#f80000"></i>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-issuer">Oracle</span>
+                    <h4>AI Foundation Associate</h4>
+                </div>
+                <i class="fas fa-medal cert-medal"></i>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-logo" style="background:rgba(0,113,197,0.08);border-color:rgba(0,113,197,0.15)">
+                    <i class="fas fa-microchip" style="color:#0071c5"></i>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-issuer">Intel & CBSE</span>
+                    <h4>AI Aware & AI Appreciate</h4>
+                </div>
+                <i class="fas fa-medal cert-medal"></i>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-logo" style="background:rgba(15,98,254,0.08);border-color:rgba(15,98,254,0.15)">
+                    <i class="fas fa-cloud" style="color:#0f62fe"></i>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-issuer">IBM</span>
+                    <h4>Cloud Computing</h4>
+                </div>
+                <i class="fas fa-medal cert-medal"></i>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-logo" style="background:rgba(66,133,244,0.08);border-color:rgba(66,133,244,0.15)">
+                    <i class="fab fa-google" style="color:#4285f4"></i>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-issuer">Google Cloud & Simplilearn</span>
+                    <h4>Innovation with Google Cloud AI</h4>
+                </div>
+                <i class="fas fa-medal cert-medal"></i>
+            </div>
+
+            <div class="cert-card glass-card">
+                <div class="cert-logo" style="background:rgba(15,157,88,0.08);border-color:rgba(15,157,88,0.15)">
+                    <i class="fas fa-brain" style="color:#0f9d58"></i>
+                </div>
+                <div class="cert-info">
+                    <span class="cert-issuer">Google Cloud Skills Boost</span>
+                    <h4>Introduction to Generative AI</h4>
+                </div>
+                <i class="fas fa-medal cert-medal"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- ───────── CONTACT ───────── -->
+    <section id="contact" class="section fade-in">
+        <div class="section-header">
+            <span class="sec-num">06</span>
+            <h2 class="sec-title">Open to Opportunities</h2>
+            <div class="sec-line"></div>
+        </div>
+        <p class="contact-sub">I'm currently looking for internships and collaborative projects. Let's connect!</p>
+
+        <div class="contact-wrap glass-card">
+            <div class="contact-left">
+                <h3>Let's Talk</h3>
+                <p>Whether it's an internship, project collab, or just a conversation about AI — my inbox is open.</p>
+                <div class="contact-items">
+                    <a href="mailto:vedantpandit7062005@gmail.com" class="cinfo-item">
+                        <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+                        <span>vedantpandit7062005@gmail.com</span>
+                    </a>
+                    <a href="tel:+917067227355" class="cinfo-item">
+                        <div class="ci-icon"><i class="fas fa-phone-alt"></i></div>
+                        <span>+91 7067227355</span>
+                    </a>
+                    <div class="cinfo-item">
+                        <div class="ci-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <span>Noida, Uttar Pradesh, India</span>
+                    </div>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://www.linkedin.com/in/vedant-pandit-9a5306372" target="_blank" class="csoc"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/vedant1311-del" target="_blank" class="csoc"><i class="fab fa-github"></i></a>
+                    <a href="mailto:vedantpandit7062005@gmail.com" class="csoc"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="ae2755ff-b882-4a19-aceb-4123cc373ba0">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" name="subject" placeholder="Internship / Collaboration / Just saying hi">
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" placeholder="Tell me what's on your mind..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width:100%;justify-content:center">
+                    Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ───────── FOOTER ───────── -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-logo">VEDANT<span class="dot">.</span></span>
+                <p>BTech CS · AI & ML Enthusiast<br>Noida International University</p>
+            </div>
+            <div class="footer-center">
+                <div class="footer-socials">
+                    <a href="https://www.linkedin.com/in/vedant-pandit-9a5306372" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/vedant1311-del" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:vedantpandit7062005@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-copy">© 2026 Vedant Pandit. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
